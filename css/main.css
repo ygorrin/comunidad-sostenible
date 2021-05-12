@@ -1,0 +1,148 @@
+/* Inserta tu codigo aqui */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 0.5px dotted red; */
+}
+
+:root{
+    --bs-font-sans-serif: "OpenSans-Light" Helvetica;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    height: 20px;
+}
+
+.comunidad-sostenible .navbar-nav>a {
+    width: 130px;
+    padding: 0;
+    margin: 0;
+    border-right: 1px solid grey;
+    text-align: center;
+    line-height: 20px;
+}
+
+.comunidad-sostenible .navbar-nav>a:last-child {
+    border-right: none;
+}
+
+.comunidad-sostenible .banner {
+    height: 450px;
+    background-image: url("../img/semilla.jpg");
+}
+
+.comunidad-sostenible .mensaje {
+    height: 150px;
+    width: 100%;
+    text-align: center;
+    background-color: #4d4d4d28;
+}
+
+.comunidad-sostenible .mensaje>p {
+    width: 55%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.comunidad-sostenible .mision-vision {
+ margin: 50px auto;
+} 
+
+.comunidad-sostenible .card {
+    border: none;
+    margin-bottom: 30px;
+}
+
+.comunidad-sostenible .mision-vision .card-img-top {
+    width: 40%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.comunidad-sostenible .metodologia .metodo-1 {
+    background-image: url("../img/metodo.JPG");
+    height: 450px;
+}
+
+.comunidad-sostenible .metodologia .metodo-2 {
+    background-image: url("../img/fondo.jpg");
+    height: 450px;
+    margin: 0 auto;
+}
+
+.comunidad-sostenible .metodologia .metodo-2>img {
+    margin-top: 90px;
+    margin-bottom: 30px;
+}
+
+.comunidad-sostenible .metodologia .metodo-2>h3 {
+    margin-bottom: 20px;
+}
+
+.comunidad-sostenible .metodologia .metodo-2>p {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.comunidad-sostenible .servicios {
+    height: auto;
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.comunidad-sostenible .servicios>p {
+    margin-bottom: 30px;
+}
+
+.comunidad-sostenible .servicios .card-img-top {
+    width: 60%;
+    margin: 20px auto;
+}
+
+.comunidad-sostenible .servicios .card h5 {
+height: 50px;
+}
+
+.proyectos{
+    height: auto;
+    width: 100%;
+}
+
+.comunidad-sostenible .equipo .card-img-top {
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.comunidad-sostenible .blog{
+    height: auto;
+    background-image: url("../img/fondo2.jpg");
+}
+
+.comunidad-sostenible .blog .card-blog{
+    background: none !important;
+}
+
+.comunidad-sostenible .blog h4, 
+.comunidad-sostenible .blog h5 {
+    margin: 0;
+}
+
+.comunidad-sostenible .blog .card-img-top {
+    width: 80%;
+    margin: 0 auto;
+    /* padding-top: 30px; */
+}
+
+.comunidad-sostenible .blog .card-body {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.comunidad-sostenible .blog .card-body>.p-blog{
+    font-size: 16px;
+    line-height:18px;
+}
