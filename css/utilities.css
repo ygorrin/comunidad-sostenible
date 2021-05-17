@@ -17,6 +17,9 @@
 }
 
 /* Shortcuts */
+.container-fluid{
+	padding: 0;
+}
 
 .pd-0 {
 	padding: 0;

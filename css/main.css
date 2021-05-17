@@ -7,8 +7,8 @@
     /* outline: 0.5px dotted red; */
 }
 
-:root{
-    --bs-font-sans-serif: "OpenSans-Light" Helvetica;
+:root {
+    --bs-font-sans-serif: "OpenSans-Light"Helvetica;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -47,8 +47,8 @@
 }
 
 .comunidad-sostenible .mision-vision {
- margin: 50px auto;
-} 
+    margin: 50px auto;
+}
 
 .comunidad-sostenible .card {
     border: none;
@@ -103,10 +103,16 @@
 }
 
 .comunidad-sostenible .servicios .card h5 {
-height: 50px;
+    height: 50px;
 }
 
-.proyectos{
+.comunidad-sostenible .servicios .card .card-title {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.comunidad-sostenible .proyectos {
     height: auto;
     width: 100%;
 }
@@ -117,16 +123,16 @@ height: 50px;
     padding-top: 30px;
 }
 
-.comunidad-sostenible .blog{
+.comunidad-sostenible .blog {
     height: auto;
     background-image: url("../img/fondo2.jpg");
 }
 
-.comunidad-sostenible .blog .card-blog{
+.comunidad-sostenible .blog .card-blog {
     background: none !important;
 }
 
-.comunidad-sostenible .blog h4, 
+.comunidad-sostenible .blog h4,
 .comunidad-sostenible .blog h5 {
     margin: 0;
 }
@@ -142,7 +148,78 @@ height: 50px;
     margin: 0 auto;
 }
 
-.comunidad-sostenible .blog .card-body>.p-blog{
+.comunidad-sostenible .blog .card-body>.p-blog {
     font-size: 16px;
-    line-height:18px;
+    line-height: 18px;
+}
+
+.comunidad-sostenible .redes {
+    height: auto;
+    padding: 40px;
+    background-color: #4D4D4D;
+
+}
+
+.comunidad-sostenible .redes .red {
+    border: 1px solid white;
+    height: 320px;
+    display: block;
+
+}
+
+.comunidad-sostenible .redes .red h3 {
+    color: white;
+    width: 65%;
+    font-size: 30px;
+    display: inline-block;
+    height: 70px;
+    line-height: 70px;
+    text-align: left;
+}
+
+.comunidad-sostenible .redes .red img {
+    height: 60px;
+    width: auto;
+    color: white;
+    font-size: 24px;
+    display: inline-block;
+    text-align: right;
+}
+
+.comunidad-sostenible .redes .red .email {
+    height: 40px;
+
+}
+
+.comunidad-sostenible .footer {
+    height: auto;
+    padding: 30px 0;
+}
+
+.comunidad-sostenible .footer h3,
+.comunidad-sostenible .footer h4 {
+    font-size: 24px;
+}
+
+.comunidad-sostenible .footer h2 {
+    font-size: 24px;
+    font-weight: Bold;
+}
+
+.comunidad-sostenible .footer>div>div>div:last-child {
+    text-align: right;
+}
+
+@media (max-width: 768px) {
+    .comunidad-sostenible .footer {
+        text-align: center;
+    }
+
+    .comunidad-sostenible .footer>div>div>div:last-child {
+        text-align: center;
+    }
+    .comunidad-sostenible .footer>div>div>div:first-child>h4{
+       display: none;
+    }
+
 }
